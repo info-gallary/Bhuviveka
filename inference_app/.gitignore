@@ -1,0 +1,11 @@
+# Stage-1 checkpoint is ~1.2 GB — exceeds GitHub's 100 MB limit.
+# Track it with Git LFS, or host it externally and document the download.
+checkpoints/seg_300m_best.pt
+
+# Streamlit upload scratch file
+_uploaded.npy
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

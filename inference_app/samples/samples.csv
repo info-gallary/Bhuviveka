@@ -1,0 +1,16 @@
+file,patch_id,event,sensor,risk_label,seg_area_km2,change_pct,distance_to_lake_km,lake_pct
+himachal_gepang_gath__HIGH__00.npy,2022-05-31_RA331MAY2022028432009500_on_lake_L108_n000,himachal_gepang_gath,LISS3,HIGH,0.2748,66.7,0.100,0.0699
+himachal_gepang_gath__HIGH__01.npy,2021-06-29_RA329JUN2021023658009500_proximal_L108_n002,himachal_gepang_gath,LISS3,HIGH,0.428,159.6,0.843,0.0696
+himachal_gepang_gath__LOW__02.npy,2019-05-18_RA318MAY2019012675009500_proximal_L108_n001,himachal_gepang_gath,LISS3,LOW,0.0,-100.0,1.189,0.0632
+himachal_gepang_gath__LOW__03.npy,2019-05-18_RA318MAY2019012675009500_proximal_L108_n002,himachal_gepang_gath,LISS3,LOW,0.0012,-99.3,1.993,0.0176
+himachal_gepang_gath__MEDIUM__04.npy,2020-05-12_RA312MAY2020017790009500_on_lake_L108_n000,himachal_gepang_gath,LISS3,MEDIUM,0.0968,-41.3,0.100,0.0695
+himachal_gepang_gath__MEDIUM__05.npy,2022-08-11_RA311AUG2022029455009500_on_lake_L108_n000,himachal_gepang_gath,LISS3,MEDIUM,0.0,-100.0,0.100,0.0692
+sikkim_south_lhonak_2016__HIGH__06.npy,2015-01-15_R2315JAN2015019409010700_proximal_L18_n070,sikkim_south_lhonak_2016,LISS3,HIGH,0.2799,190.5,1.678,0.0814
+sikkim_south_lhonak_2016__HIGH__07.npy,2016-10-24_R2324OCT2016028616010700_on_lake_L39_n120,sikkim_south_lhonak_2016,LISS3,HIGH,0.6785,94.8,0.100,0.0753
+sikkim_south_lhonak_2016__LOW__08.npy,2014-07-26_R2326JUL2014016951010600_proximal_L40_n130,sikkim_south_lhonak_2016,LISS3,LOW,0.0196,-95.3,1.267,0.0598
+sikkim_south_lhonak_2016__LOW__09.npy,2015-01-15_R2315JAN2015019409010700_on_lake_L19_n075,sikkim_south_lhonak_2016,LISS3,LOW,0.0,-100.0,0.100,0.0444
+sikkim_south_lhonak_2016__MEDIUM__10.npy,2014-07-26_R2326JUL2014016951010600_on_lake_L5_n020,sikkim_south_lhonak_2016,LISS3,MEDIUM,0.0213,-94.1,0.100,0.1028
+sikkim_south_lhonak_2016__MEDIUM__11.npy,2016-04-15_R2315APR2016025888010700_on_lake_L24_n086,sikkim_south_lhonak_2016,LISS3,MEDIUM,0.1273,-11.7,0.100,0.0268
+sikkim_south_lhonak_2023__HIGH__12.npy,2023-10-19_RAF19OCT2023035621010700_on_lake_L84_n264,sikkim_south_lhonak_2023,LISS4,HIGH,0.0,-99.8,0.100,0.3151
+sikkim_south_lhonak_2023__HIGH__13.npy,2021-11-03_RA303NOV2021025462010600_proximal_L6_n026,sikkim_south_lhonak_2023,LISS3,HIGH,1.478,155.4,0.853,0.1314
+sikkim_south_lhonak_2023__LOW__14.npy,2023-10-14_RAF14OCT2023035550010700_proximal_L40_n130,sikkim_south_lhonak_2023,LISS4,LOW,0.0,-100.0,0.609,0.3234

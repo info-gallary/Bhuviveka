@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+
+# UV
+.python-version
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Data — large raw datasets stay out of git
+data/
+!data/.gitkeep
+
+# Models — large checkpoints stay out of git
+models/
+!models/.gitkeep
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+inference_app/checkpoints/
+inference_app/samples/raw/
+inference_app/__pycache__/
+
+# Intermediate / runtime
+*.log
+*.tmp
+*.cache
+*_transfer/
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Outputs that should be regenerated
+results/
+runs/
+wandb/
+mlruns/

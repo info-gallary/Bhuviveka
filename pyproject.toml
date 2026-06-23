@@ -1,0 +1,86 @@
+[project]
+name = "bhuviveka"
+version = "1.0.0"
+description = "Physics-Informed GRPO Fine-Tuning of Prithvi-EO-2 on NRSC Bhoonidhi Multi-Sensor Imagery for Himalayan GLOF Detection"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Nisarg Vashi",   email = "23bce370@nirmauni.ac.in" },
+    { name = "Krish Vaghasia", email = "23bce364@nirmauni.ac.in" },
+    { name = "Jaya Saxena",    email = "jaya.saxena@nrsc.gov.in" },
+]
+keywords = [
+    "remote-sensing",
+    "earth-observation",
+    "glacial-lake-outburst-flood",
+    "glof",
+    "prithvi",
+    "grpo",
+    "physics-informed-neural-network",
+    "himalaya",
+    "nrsc",
+    "bhoonidhi",
+]
+
+dependencies = [
+    # core ML
+    "torch>=2.2",
+    "torchvision>=0.17",
+    "transformers>=4.40",
+    "einops>=0.7",
+    "timm>=1.0",
+
+    # geo + raster
+    "rasterio>=1.3",
+    "geopandas>=0.14",
+    "tifffile>=2024.2",
+    "shapely>=2.0",
+    "pyproj>=3.6",
+
+    # data + scientific
+    "numpy>=1.24,<2.0",
+    "pandas>=2.1",
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "scikit-image>=0.22",
+
+    # plotting + figures
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "Pillow>=10.0",
+
+    # utilities
+    "tqdm>=4.66",
+    "PyYAML>=6.0",
+    "python-dotenv>=1.0",
+    "requests>=2.31",
+    "huggingface_hub>=0.20",
+    "safetensors>=0.4",
+]
+
+[project.optional-dependencies]
+app = [
+    "streamlit>=1.30",
+]
+dev = [
+    "ruff>=0.4",
+    "pytest>=8.0",
+    "ipykernel>=6.28",
+    "jupyter>=1.0",
+]
+
+[project.urls]
+Repository = "https://github.com/nrsc-isro/bhuviveka"
+Paper      = "paper/BhuViveka_IEEE_Conference.pdf"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
