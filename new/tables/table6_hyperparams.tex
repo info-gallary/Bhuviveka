@@ -1,0 +1,1 @@
+\begin{table}[t]\centering\caption{Hyper-parameters and reward design.}\label{tab:hp}\begin{tabular}{ll}\hline Component & Setting\\\hlineBackbone & Prithvi-EO-2.0-300M-TL\\Adaptation & LoRA r=16 on QKV\\Seg loss & 0.5 BCE + 0.5 Dice\\RL & GRPO, G=2, no critic\\Reward & 0.5 label + 0.2 area + 0.2 change + 0.1 format\\\hline\end{tabular}\end{table}
